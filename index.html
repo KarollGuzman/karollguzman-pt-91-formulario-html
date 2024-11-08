@@ -12,27 +12,28 @@
     <h1 class="bg-light px-4">Payment for example</h1>
     </header>
     <!--Formulario-->
-    <div class="container row p-5">
+    <div class="container row p-1 p-md-5">
+      <form action="https://www.bing.com/images/blob?bcid=qBRAJkBnkbcHg-9A99QQJ-bywtKF.....8Q" method="post">
         <!--Alert-->
-        <div class="alert col-12 row">
+        <div class="alert col-12 p-1 p-md-5">
         <div class="alert alert-danger small" role="alert">
            Some fields are missing
           </div>
         </div>
         <!--Form-->
 <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-5 p-1 p-md-5">
         <div class="text-start mb-2 small">Card #</div>
             <div class="input-group mb-3">
         <input type="text" class="form-control" placeholder="XXXXXXXX" aria-label="XXXXXXXX" aria-describedby="basic-addon1">
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 p-1 p-md-5">
         <div class="text-start mb-2">CVC #</div>
       <div class="input-group mb-3">
         <input type="text" class="form-control" placeholder="0000" aria-label="0000" aria-describedby="basic-addon2"></div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 p-1 p-md-5">
             <div class="text-start mb-2">Amount</div>
         <div class="input-group mb-3">
           <span>$</span>
@@ -41,13 +42,13 @@
 </div>
         <!--Form2-->
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 p-1 p-md-5">
             <div class="text-start mb-2 small">First Name</div>
                 <div class="input-group mb-3">
             <input type="text" class="form-control">
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 p-1 p-md-5">
             <div class="text-start mb-2">Last Name</div>
           <div class="input-group mb-3">
             <input type="text" class="form-control">
@@ -56,13 +57,13 @@
       </div>
       <!--Form3-->
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 p-1 p-md-5">
             <div class="text-start mb-2 small">City</div>
                 <div class="input-group mb-3">
             <input type="text" class="form-control">
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 p-1 p-md-5">
             <div class="text-start mb-2">State</div>
             <select class="form-select">
               <option selected>Pick a State</option>
@@ -71,14 +72,14 @@
               <option value="3">Bilbao</option>
             </select>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 p-1 p-md-5">
               <div class="text-start mb-2 small">Postal Code</div>
               <input type="text" class="form-control">
               </div>
             </div>
             <!--Checkbox-->
             <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 p-1 p-md-5">
               <div class="text-start mb-2">We accept</div>
               <div class="bg-secondary form-check-inline px-3">
             <div class="form-check form-check-inline">
@@ -101,7 +102,7 @@
           </div>
 
           <!--Form4-->
-        <div class="col-md-6">
+        <div class="col-md-6 p-1 p-md-5">
         <div class="text-start mb-2">Message</div>
         <div class="input-group">
         <textarea class="form-control" aria-label="With textarea"></textarea>
@@ -114,12 +115,13 @@
     
     <!--Card botones finales-->
         <div class="row">
-          <div class="col-12 text-end">
+          <div class="col-12 text-end p-1 p-md-5">
          <button class="btn btn-secondary" type="reset">Cancel</button>
          <button id="sendForm" class="btn btn-primary ms-1" type="submit">Send</button>
         </div>
       </div>
     </div>
+    </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
